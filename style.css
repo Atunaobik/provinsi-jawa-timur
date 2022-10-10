@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3 {
+  color: rgb(255, 90, 23);
+}
+footer {
+  padding: 1%;
+  color: white;
+  background-color: rgb(245, 149, 66);
+  text-align: center;
+  font-weight: bold;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(255, 90, 23);
+}
+nav a:hover {
+  font-weight: bold;
+}
+.profile img {
+  width: 200px;
+}
+.profile header {
+  text-align: center;
+}
+.featured-image {
+  width: 75%;
+  max-height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.5);
+  padding: 20px;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+.jumbotron {
+  font-size: 20px;
+  padding: 150px;
+  background-image: url(./Assets/0reog.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: whitesmoke;
+}
+nav {
+  background-color: gray;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+#content {
+  float: left;
+  width: 75%;
+}
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+header {
+  display: inline;
+}
